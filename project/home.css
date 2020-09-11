@@ -1,0 +1,48 @@
+hello{
+    background-image:url(b1.jpg);
+  
+    background-size: 100%;
+    background-repeat: repeat;
+    width: 100%;
+    
+    
+}
+name{
+    margin-left: .75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}  
+button{
+    margin-top: 0;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 1rem;
+    align-items: center;
+    display: inline-flex;
+    border-width: 0;
+    border-width: 0;
+    background-color: rgba(45,55,72,var(--bg-opacity));
+    line-height: inherit;
+    color: inherit;
+    cursor: pointer;
+    overflow: visible;
+    font-family: inherit;        
+}
+container{
+    flex-direction: row;
+    padding: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 768px;
+    width: 100%;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #826229;
+    --text-opacity: 1;
+}
